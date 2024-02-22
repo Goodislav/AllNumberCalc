@@ -19,6 +19,7 @@ class Main {
         }
     }
 
+    // принимает строку с арифметическим выражением между двумя числами и возвращает строку с результатом их выполнения
     public static String calc(String input) throws DifferentTypesException, Exception {
         String[] symbols = Calculator.deleteSpaces(input);
 
